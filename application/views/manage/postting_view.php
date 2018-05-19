@@ -19,7 +19,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Slab', serif;}
   <a href="<?php $base_url ?>/LinhProject/category"  class="w3-bar-item w3-button"><h5>Quản lý danh mục</h5></a>
   <a href="<?php $base_url ?>/LinhProject/postlist"  class="w3-bar-item w3-button" ><h5>Quản lý bài viết</h5></a>
   <a href="<?php $base_url ?>/LinhProject/postting"class="w3-bar-item w3-button" style="background: #CD8162"><h5>Thêm bài viết</h5></a>
-  <a href="#about"  class="w3-bar-item w3-button"><h5>Cài đặt</h5></a>
 </nav>
 <!-- Top menu -->
 <div class="w3-top">

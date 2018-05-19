@@ -45,6 +45,8 @@ class Admin_model extends CI_Model {
            $query = $this->db->get('user');
            return $query->row();
         } 
+
+        
         // lay danh muc
         public function  list_get_category()
         {
