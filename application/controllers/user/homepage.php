@@ -8,12 +8,16 @@ class Homepage extends CI_Controller {
         $this->load->model('homepage_model');
     }
 
-	public function index()
+	public function home()
 	{
-        $this->load->view('user/home'); 
+		//load danh muc
+		$data_catagory['category']= $this->homepage_model->list_get_category_home();
+		// load bai viet theo danh muc
+		$data_catagory['postsdt'] = $this->homepage_model->list_get_post_home();
+        $this->load->view('new_pages/index',$data_catagory); 
                 
 	}
-	public function home()
+	public function homeold()
 	{
 		//load danh muc
 		$data_catagory['category']= $this->homepage_model->list_get_category_home();
